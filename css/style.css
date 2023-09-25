@@ -1,3 +1,6 @@
+header{
+    background-color: lightgrey;
+}
 
 .container{
     height:4em;
@@ -7,9 +10,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
 }
-
 
 .flex{
     display: flex;
@@ -20,3 +21,11 @@
     flex: wrap;
 }
 
+#containerA{
+    background-color: orange;
+
+}
+
+#containerB{
+    background-color: gray;
+}
