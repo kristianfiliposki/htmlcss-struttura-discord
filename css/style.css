@@ -3,9 +3,6 @@ header{
 }
 
 .container{
-    height:4em;
-    width: 70em;
-    background-color: orange;
     margin: 0 auto ;
     display: flex;
     justify-content: space-around;
@@ -23,9 +20,12 @@ header{
 
 #containerA{
     background-color: orange;
-
+    height:4em;
+    width: 70em;
 }
 
 #containerB{
     background-color: gray;
+    height: 10em;
+    width: 2;
 }
