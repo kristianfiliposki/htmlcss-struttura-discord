@@ -5,9 +5,10 @@
 .container{
     margin: 0 auto ;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 70em;
+    height: 17em;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex{
@@ -19,12 +20,131 @@
     flex: wrap;
 }
 
+
 #containerA{
     background-color: orange;
     height:4em;
+    justify-content: space-around;
+    align-items: center;   
 }
 
 #containerB{
-    background-color: gray;
+    background-color: blue;
+    height: 15em;
+    align-items: center;
+    justify-content: center;
+}
+
+#blockA{
+    background-color:pink;
+    width: 40%;
+    height:70%;
+}
+
+#containerC{
+    background-color: white;
+}
+
+#blockB{
+    width: 70%;
+    height:70%;
+}
+
+.miniblockA{
+width: 40%;
+height: 100%;
+background-color: pink;
+}
+
+.miniblockB{
+    width: 60%;
+    height: 100%;
+    background-color: blue; 
+}
+
+#containerD{
+    background-color: lightgrey;
+}
+
+#blockC{
+    width: 70%;
+    height:70%;
+    background-color: white;
+}
+
+#containerE{
+    background-color: white;
+}
+
+#blockD{
+    width: 70%;
+    height:70%;
+}
+
+#containerF{
+    background-color: lightgrey;
+    height: 35em;
+}
+
+#blockE{
+    width: 70%;
+    height:90%;
+    background-color: green;
+}
+
+
+#containerG{
+    background-color:black;
+    height: 35em;
+}
+
+#blockF{
+    width: 70%;
+    height:90%;
+}
+
+.miniblock{
+    width: calc(60%);
+    height: 100%;
+    background-color: aquamarine;
+    border-color: white;
+    border: 1px solid black;
+}
+
+.miniblockC{
+    height: 100%;
+    width: 30%;
+    background-color:palevioletred;
+}
+
+.miniblockD{
+    height: 100%;
+    width: 70%;
+}
+
+#containerH{
+    background-color:black;
     height: 10em;
 }
+
+#blockG{
+    width: 70%;
+    height:90%;
+    background-color: rgb(127, 255, 246);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottone{
+    height: 2em;
+    width: 3em;
+}
+
+#logo{
+    height: 2em;
+    width: 3em;
+    background-color: lightgrey;
+    border:1px solid black;
+}
+
+
